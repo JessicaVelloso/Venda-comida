@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodBox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="titulo">
+        <h1>FoodBox</h1>
+        <h2>Monte seu box e receba em 15 minutos:</h2>
+    </div>
+    <h3>Primeiro, seu prato</h3>
+    <div id="frango" class="produtos" onclick="escolherFrango()">
+        <img src="https://img.elo7.com.br/product/original/22565B3/adesivo-parede-prato-comida-frango-salada-restaurante-lindo-adesivo-parede.jpg" alt="frango">
+        <h4>Frango Yin-Yang</h4>
+        <p>Um pouco de batata, arroz e um pouco de salada</p>
+        <p><strong>R$19,90</strong></p>   
+    </div>
+    <div onclick="escolher()" class="produtos" id="cor" >
+        <img src="https://images.aws.nestle.recipes/original/b011648bf353923028376e9b8607314a_carne-panela-mais-saborosa-receitas-nestle.jpg" alt="carne de panela">
+        <h4>Carne de Panela</h4>
+        <p>Um pouco de batata, um pouco de salada, arroz e feijão</p>
+        <p><strong>R$23,90</strong></p>   
+    </div>
+    <div onclick="escolher()" class="produtos" id="cor">
+        <img src="https://img.itdg.com.br/tdg/images/recipes/000/161/116/119605/119605_original.jpg?mode=crop&width=710&height=400" alt="vegetariana">
+        <h4>Opção Vegetariana</h4>
+        <p>Carne feita de soja, um pouco de salada e arroz</p>
+        <p><strong>R$22,90</strong></p>   
+    </div>
+
+    <h3>Agora, sua bebida</h3>
+    <div onclick="escolher()" class="produtos" id="cor">
+        <img src="https://hamburgueriavital.com.br/wp-content/uploads/2020/11/refrigerantes-1280x720-1.jpg" alt="refrigerante">
+        <h4>Refrigerante</h4>
+        <p>Pepsi, Coca-cola, Sprite, Fanta Laranja ou Guaraná</p>
+        <p><strong>R$6,00</strong></p>   
+    </div>
+    <div onclick="escolher()" class="produtos" id="cor">
+        <img src="https://www.iguatemiaguasebebidas.com.br/333/suco-del-valle-sabores-1litro.jpg" alt="sucos">
+        <h4>Suco</h4>
+        <p>Uva, Maracujá, ou Pêssego</p>
+        <p><strong>R$6,00</strong></p>
+    </div>
+    <div onclick="escolher()" class="produtos" id="cor">
+        <img src="https://guaravita.com.br/wp-content/uploads/2020/08/GUARAVITA.jpg" alt="guaravita">
+        <h4>Guaravita</h4>
+        <p>Guaravita ou Guaracamp</p>
+        <p><strong>R$2,00</strong></p>
+    </div>
+
+    <h3>Por último, sua sobremesa</h3>
+    <div onclick="escolher()" class="produtos" id="cor">
+        <img src="https://img.itdg.com.br/tdg/images/recipes/000/306/823/340593/340593_original.jpg?mode=crop&width=710&height=400" alt="Brownie">
+        <h4>Brownie</h4>
+        <p><strong>R$5,00</strong></p>
+    </div>
+    <div onclick="escolher()" class="produtos" id="cor">
+        <img src="https://s2.glbimg.com/2MF5LvevjuYczLNtzsuGBlOpsbg=/0x0:638x359/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2021/e/j/Kn1yDXQSeKr4GmAzDXQQ/receita-de-brigadeiro-tradicional.png" alt="Brigadeiro">
+        <h4>Brigadeiro</h4>
+        <p><strong>R$3,00</strong></p>
+    </div>
+    <script>
+        function escolherFrango() {
+            document.getElementById("frango").style.borderColor = "yellow";
+        }
+    </script>
+</body>
+</html> 
